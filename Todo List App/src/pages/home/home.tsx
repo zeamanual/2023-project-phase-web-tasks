@@ -12,8 +12,8 @@ const Home: React.FC = () => {
 
 
   let handleAddTodo = (e: React.FormEvent) => {
+    e.preventDefault()
     if(todo.name){
-      e.preventDefault()
       setTodos([...todos, todo])
       setTodo({ id: Date.now().toString(), name: '' })
     }
@@ -23,8 +23,8 @@ const Home: React.FC = () => {
   }
 
   let handleEditTodo = (e: React.FormEvent) => {
+    e.preventDefault()
     if (todo.name) {
-      e.preventDefault()
       setTodos(todos.map(existingTodo => ({ ...existingTodo, name: existingTodo.id == todo.id ? todo.name : existingTodo.name })))
       setTodo({ id: Date.now().toString(), name: '' })
       setEditMode(false)
