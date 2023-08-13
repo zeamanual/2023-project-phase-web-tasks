@@ -1,0 +1,7 @@
+.todo-list-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
+    flex-wrap: wrap;
+    
+}
