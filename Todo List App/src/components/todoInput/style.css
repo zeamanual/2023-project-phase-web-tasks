@@ -1,7 +1,7 @@
 .todo-input-container{
     display: flex;
     justify-content: center;
-    width: 21em;
+    width: 22em;
 }
 .todo-input-container__field{
     padding: 1em;
