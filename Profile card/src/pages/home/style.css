@@ -1,0 +1,17 @@
+.home-container__header {
+    text-align: center;
+    color: grey;
+    padding: 1em;
+}
+
+.home-container__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 2em;
+}
+
+.home-container{
+    margin-bottom: 1em;
+
+}

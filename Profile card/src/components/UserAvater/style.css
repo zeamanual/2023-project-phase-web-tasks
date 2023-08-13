@@ -1,0 +1,9 @@
+.profile-image-container{
+}
+.profile-image-container__img{
+    /* border-radius: 10%; */
+
+    width: 100%;
+    object-fit: cover;
+    height: 200px
+}

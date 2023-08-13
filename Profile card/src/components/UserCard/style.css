@@ -1,0 +1,13 @@
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.card-container__user-detail-card{
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 5px 2px rgb(182, 182, 182) ;   
+    padding: 1em;
+    width: 300px;
+}
