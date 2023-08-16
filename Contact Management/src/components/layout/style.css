@@ -1,0 +1,35 @@
+.home-container__header {
+    text-align: center;
+    color: rgb(0, 38, 63);
+    padding: 1em;
+}
+
+.home-container{
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container__btn{
+    margin-top: 1em;
+    display: flex;
+    column-gap: 1em;
+}
+.home-container__btn--increment{
+    background-color: rgb(202, 243, 108);
+    outline: none;
+    border: none;
+    border-radius: 0.3em;
+    color: rgb(107, 105, 105);
+    padding: 1em 1.5em;
+}
+
+.home-container__btn--decrement{
+    background-color: rgb(236, 155, 88);
+    outline: none;
+    border: none;
+    border-radius: 0.3em;
+    color: rgb(107, 105, 105);
+    padding: 1em 1.5em;
+}

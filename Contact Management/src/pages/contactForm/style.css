@@ -1,0 +1,45 @@
+.form{
+    box-shadow: 2px 2px 5px 2px rgb(97, 97, 97);
+    padding: 1em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    min-width: 60vw;
+}
+
+.form__field{
+
+    border: none;
+    background-color: rgb(233, 231, 231);
+    padding: 1em;
+    border-radius: 0.3em;
+}
+.form__form__actions__btn {
+    background-color: rgb(236, 155, 88);
+    outline: none;
+    border: none;
+    border-radius: 0.3em;
+    color: rgb(255, 255, 255);
+    padding: 0.75em 1.25em;
+    transition: 0.25s all;
+}
+
+.form__form__actions__btn:hover{
+    background-color: rgb(243, 127, 33);
+    /* transform: scale(1.2); */
+}
+.form__form__actions__btn:active{
+    background-color: rgb(241, 109, 0);
+}
+.form__form__actions__btn--cancel{
+    background-color: rgb(238, 59, 59);
+}
+.form__form__actions__btn--cancel:hover{
+    background-color: red;
+}
+.form__actions{
+    display: flex;
+    justify-content: end;
+    column-gap: 1em;
+}

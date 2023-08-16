@@ -1,0 +1,29 @@
+
+.container__btn{
+    background-color: rgb(236, 155, 88);
+    outline: none;
+    border: none;
+    border-radius: 0.3em;
+    color: rgb(255, 255, 255);
+    padding: 0.75em 1.25em;
+    transition: 0.25s all;
+}
+
+.container__btn:hover{
+    background-color: rgb(243, 127, 33);
+    transform: scale(1.2);
+}
+.container__btn:active{
+    background-color: rgb(241, 109, 0);
+}
+.btn_container{
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    margin-right: 10vw;
+}
+.container__contact-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
